@@ -5,10 +5,170 @@
     <title>
         Fake Amazon
     </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-color: #EAEDED;
+        }
+
+        .header-container {
+            background-color: honeydew;
+            height: 90px;
+
+        }
+
+        .top-bar {
+            background-color: beige;
+            height: 30px;
+            background-image: url('./img/sm.topbar.png');
+            background-size: contain;
+
+        }
+
+        .top-nav {
+            background-color: #232f3e;
+            height: 60px;
+        }
+
+
+
+        .top-left {
+            width: 110px;
+            float: left;
+
+
+        }
+
+        .top-left>img,
+        .top-right>img {
+            height: 60px;
+
+        }
+
+        .top-left,
+        .top-middle,
+        .top-right {
+            height: 100%;
+        }
+
+        .top-middle {
+            width: calc(100%-330px);
+            float: left;
+            text-align:center;
+
+        }
+        
+        .top-search {
+            width: 400px;
+            margin-top: 5px;
+
+        }
+        .top-nav-items {
+            text-align: left;
+            margin-top: 10px;
+        }
+        .top-nav-items > li {
+            display: inline-block;
+
+        }
+        .top-nav-items > li > a {
+            font-size: 8px;
+            text-decoration: none;
+            color: white;
+            padding: 4px;
+        }
+        .top-nav-items > li:hover {
+            border: 1px solid #FFF;
+            border-radius: 5px;
+        }
+        .top-search-button {
+            background-color: #febd69;
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+        }
+
+
+        .top-right {
+            width: 220px;
+            float: right;
+            overflow: hidden;
+            
+
+        }
+        .top-right>img {
+            background-position: 30px 0;
+        }
+
+        .main-body {
+            width: 90vw;
+            min-height: 800px;
+            background-color: lavender;
+            margin: 0px auto;
+
+        }
+
+        .footer-sidebar-container {
+            width: 100vw;
+            min-height: 500px;
+            background-color: lavenderblush;
+        }
+    </style>
+</head>
 
 <body>
-    <h2>Fake Amazon - Development - Feature-One</h2>
+    <header class="header-container">
+        <div class="top-bar"></div>
+        <div class="top-nav">
+            <div class="top-left">
+                <img src="./img/sm.left.png" alt="top left">
+            </div>
+            <div class="top-middle">
+                <input type="text" class="top-search">
+                <button type="button" class="top-search-button">Search</button>
+                <ul class="top-nav-items">
+                    <li>
+                        <a href="#">Your Amazon.com</a>
+                    </li>
+                    <li>
+                        <a href="#">Today's Deals</a>
+                    </li>
+                    <li>
+                        <a href="#">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="#">Whole Foods</a>
+                    </li>
+                    <li>
+                        <a href="#">Registry</a>
+                    </li>
+                    <li>
+                        <a href="#">Sale</a>
+                    </li>
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="top-right">
+                <img src="./img/sm.right.png" alt="top right">
+            </div>
+        </div>
+    </header>
+    <div class="main-body">
+        Main Body
+    </div>
+    <div class="footer-sidebar-container">
+        Footer Sidebar Container
+    </div>
 </body>
-</head>
+
 
 </html>
