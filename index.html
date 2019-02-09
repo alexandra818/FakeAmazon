@@ -19,6 +19,10 @@
             background-color: #EAEDED;
         }
 
+        a{
+            text-decoration: none;
+        }
+
         .header-container {
             background-color: honeydew;
             height: 90px;
@@ -28,7 +32,7 @@
         .top-bar {
             background-color: beige;
             height: 30px;
-            background-image: url('./img/sm.topbar.png');
+            background-image: url('./img/bg.banner1.png');
             background-size: contain;
 
         }
@@ -108,13 +112,66 @@
         }
 
         .main-body {
-            width: 90vw;
+            width: 80vw;
             min-height: 800px;
-            background-color: lavender;
+            background-color: transparent;
             margin: 0px auto;
 
         }
+        .main-top-container > img {
+            max-width: 100%;
+        }
+        .main-top-items {
+            text-align: center;
+            margin-top: -120px;
+        }
+        .main-top-items> li {
+            display: inline-block;
+            background-color: white;
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+        }
+        .main-top-items>li:last-child {
+            background-color: transparent;
+        }
+        .btn-sign-in {
+            background-color: #f0c14b;
+            border-radius: 1px;
+            border-color: #a88734 #9c7e31 #846a29;
+            color: #111;
+            font-size: 8px;
+            padding: 3px 20px;
+            width: 100%;
+        }
+        .last-child {
+            background-color: white;
+            margin-bottom: 22px;
+            padding: 10px;
+            display: inline-block;
+        }
 
+        .main-top-items> li >img, .main-bottom-container> li >img {
+            max-width: 100%;
+            
+        }
+        .main-top-items >li>h2, .main-top-items >li>span>h2 {
+            font-size: 12px;
+            margin-bottom:7px;
+        }
+        .main-top-items >li >p, .main-top-items >li >a {
+           font-size: 8px; 
+        }
+        .main-bottom-container {
+            list-style-type: none;
+        }
+        .main-bottom-container >li{
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            margin: 10px 0px;
+         
+        }
         .footer-sidebar-container {
             width: 100vw;
             min-height: 500px;
@@ -163,8 +220,52 @@
         </div>
     </header>
     <div class="main-body">
-        Main Body
+        <div class="main-top-container">
+            <img src="./img/bg.cover.jpg" alt="banner">
+            <ul class="main-top-items">
+                <li>
+                    <h2>Find the Perfect Gift</h2>
+                    <img src="./img/sm.img1.jpg" alt="img 1">
+                    <p>Send love, spred love.</p>
+                    <a href="#">See all Valentine's Day gifts</a> </a>
+                </li>
+                <li>
+                    <h2>Find the Perfect Gift</h2>
+                    <img src="./img/sm.img2.jpg" alt="img 2">
+                    <p>Send love, spred love.</p>
+                    <a href="#">See all Valentine's Day gifts</a> </a>
+                </li>
+                <li>
+
+                    <h2>Find the Perfect Gift</h2>
+                    <img src="./img/sm.img3.jpg" alt="img 3">
+
+                    <p>Send love, spred love.</p>
+                    <a href="#">See all Valentine's Day gifts</a> </a>
+                </li>
+                <li>
+                    <span class="last-child">
+                        <h2>Sign in for the best experience</h2>
+                        <button class="btn-sign-in" type="button">Sign in Security</button>
+                    </span>
+
+                    <img src="./img/sm.img4.png" alt="img 4">
+
+                </li>
+            </ul>
+        </div>
     </div>
+    <ul class="main-bottom-container">
+        <li>
+            <img src="./img/bg.banner4.png" alt="img 1">
+        </li>
+        <li>
+            <img src="./img/bg.banner2.png" alt="img 2">
+        </li>
+        <li>
+            <img src="./img/bg.banner3.png" alt="img 3">
+        </li>
+    </ul>
     <div class="footer-sidebar-container">
         Footer Sidebar Container
     </div>
