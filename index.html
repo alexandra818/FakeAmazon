@@ -22,6 +22,19 @@
         a{
             text-decoration: none;
         }
+        h3 {
+            color: white;
+            font-size: 10px;
+            margin-bottom: 8px;
+            margin-left: 20px;
+
+        }
+        h4 {
+            color: white;
+            font-size: 8px;
+            margin-left: 20px;
+
+        }
 
         .header-container {
             background-color: honeydew;
@@ -43,9 +56,10 @@
         }
 
 
-.height-100 {
-    height:100%;
-}
+        .height-100 {
+            height:100%;
+        }
+
         .top-left {
             width: 110px;
             float: left;
@@ -183,7 +197,81 @@
         .footer-sidebar-container {
             width: 100vw;
             min-height: 500px;
-            background-color: lavenderblush;
+            background-color: #232F3E;
+        }
+        .footer-top-section {
+            display: block;
+            text-align: center;
+            background-color: #37475A;
+            color: #fff;
+            padding: 5px 0;
+            line-height: 19px;
+            font-size: 9px;
+        }
+        .footer-center-section {
+            background-color: #232F3E;
+            /* color: #fff; */
+            width: 100%;
+            display: block;
+            overflow: auto;
+        }
+        .pull-left {
+            float: left;
+            width: 25%;
+        }
+        .pull-left  > ul {
+            list-style-type: none;
+           
+            
+        }
+        .pull-left  > ul > li >a {
+            color: white;
+            font-size: 8px;
+            margin-left: 20px;
+        }
+        .footer-bottom-container {
+            width: 100%;
+        }
+        .footer-center-squeeze, .footer-bottom-squeeze{
+            width:80%;
+            margin: 0 auto;
+            overflow: auto;
+
+        }
+        .footer-bottom-squeeze {
+            margin: 25px auto;
+        }
+        .footer-center-squeeze-bottom {
+            border-top: 1px solid #3a4553;
+            margin-top: 40px;
+        }
+        .footer-squeeze-button-items {
+            list-style-type: none;
+            text-align: center;
+            margin: 15px auto;
+        }
+        .footer-squeeze-button-items >li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .footer-squeeze-button-items >li:first-child {
+            margin-right: 40px;
+        }
+        .footer-25 {
+            width: 25%;
+        }
+        .footer-14 {
+            width: 16%;
+        }
+        .btn-footer {
+            color: white;
+            background-color: transparent;
+            font-size: 10px;
+            padding: 3px 9px;
+            border-radius: 3px;
+        }
+        .footer-14 > ul >li>a {
+            font-size: 6px;
         }
     </style>
 </head>
@@ -275,7 +363,249 @@
         </li>
     </ul>
     <div class="footer-sidebar-container">
-        Footer Sidebar Container
+        <div class="footer-top-section">
+            Back to Top
+        </div>
+        <div class="footer-center-section">
+            <div class="footer-center-squeeze">
+                <div class="pull-left footer-25">
+                    <h3>Get to Know Us</h3>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About Amazon</a></li>
+                        <li><a href="#">Press Center</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Amazon Devices</a></li>
+
+                </div>
+                <div class="pull-left footer-25">
+                    <h3>Make Money With Us</h3>
+                    <ul>
+                        <li><a href="#">Sell On Amazon</a></li>
+                        <li><a href="#">Sell Under Provate Brands</a></li>
+                        <li><a href="#">Sell on Amazon Handmade</a></li>
+                        <li><a href="#">Sell Your Services on Amazon</a></li>
+                        <li><a href="#">Sell on Amazon Business</a></li>
+                        <li><a href="#">Sell Your Apps on Amazon</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                        <li><a href="#">Advertise Your Products</a></li>
+                        <li><a href="#">Self-Publish with Us</a></li>
+                        <li><a href="#">See All</a></li>
+
+                    </ul>
+                </div>
+                <div class="pull-left footer-25">
+                    <h3>Amazon Payment Products</h3>
+                    <ul>
+                        <li><a href="#">Amazon Rewards Visa Signature Cards</a></li>
+                        <li><a href="#">Amazon.com Store Card</a></li>
+                        <li><a href="#">Amazon Business Card</a></li>
+                        <li><a href="#">Amazon.com Corporate Credit Line</a></li>
+                        <li><a href="#">Shop with Points</a></li>
+                        <li><a href="#">Credit Card MArketPLace</a></li>
+                        <li><a href="#">Reload Your Balance</a></li>
+                        <li><a href="#">Amazon Currency Converter</a></li>
+
+                    </ul>
+                </div>
+                <div class="pull-left footer-25">
+                    <h3>Let Us Help You</h3>
+                    <ul>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Your Orders</a></li>
+                        <li><a href="#">Shipping Rates & Policies</a></li>
+                        <li><a href="#">Amazon Prime</a></li>
+                        <li><a href="#">Returns & Replacements</a></li>
+                        <li><a href="#">Manage Your Content and Devices</a></li>
+                        <li><a href="#">Amazon Assistant</a></li>
+                        <li><a href="#">Help</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-center-squeeze-bottom">
+                <ul class="footer-squeeze-button-items">
+                    <li>
+                        <img class="footer-logo" src="./img/sm.amazonlogo.png" alt="amazon logo">
+                    </li>
+                    <li>
+                        <button type="button" class="btn-footer">English</button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn-footer">United States</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom-container">
+            <div class="footer-bottom-squeeze">
+                <div class="pull-left footer-14">
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+
+                </div>
+                <div class="pull-left footer-14">
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+
+                </div>
+                <div class="pull-left footer-14">
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+
+                </div>
+                <div class="pull-left footer-14">
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+
+                </div>
+                <div class="pull-left footer-14">
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+
+                </div>
+                <div class="pull-left footer-14">
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+                    <h4>Amazon Music</h4>
+                    <ul>
+                        <li><a href="#">Stream Millions of Songs</a></li>
+                    </ul>
+
+                </div>
+
+            </div>>
+        </div>
     </div>
 </body>
 
